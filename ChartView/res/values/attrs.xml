@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChartView">
+        <attr name="defaultColor" format="float" />
+        <attr name="defaultTextColor" format="float" />
+        <attr name="radiusSize" format="float" />
+        <attr name="paddingSize" format="float" />
+        <attr name="defaultTextSize" format="float" />
+    </declare-styleable>
+</resources>
