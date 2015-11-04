@@ -180,6 +180,7 @@ public class ChartView extends View {
 			float y = ((mEquallyCount - i) * totalY) + mTextHeight;
 			
 			canvas.drawLine(mConsumeWidth, y - mTextHeight / 2, validWidth , y - mTextHeight / 2, mLinePaint);
+			
 		}
 		//
 		
@@ -191,7 +192,7 @@ public class ChartView extends View {
 		//Y轴
 		canvas.drawLine(mConsumeWidth , validStartY, mConsumeWidth, paddingSize , mLinePaint);
 		
-		float stopX = 0;
+		float stopX = validWidth;
 		
 		if (param != null && param.length > 0) {
 
